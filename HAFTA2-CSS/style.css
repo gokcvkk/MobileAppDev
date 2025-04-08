@@ -1,0 +1,57 @@
+/* body{
+    background-color: bisque;
+}
+h2 {
+     color: orange;"
+     font-size: 20px;
+}
+
+ #yemektarifleri {
+    color: palevioletred;
+}
+ 
+.oneriler{
+    color: purple;
+}
+
+a[href^="#"] {
+    color: gold;
+}
+ */
+ html{
+    font-size: 16px;
+ }
+
+ header{
+    width: 50%;
+ }
+ h1{
+    border: 3px solid red;
+/*     width: 500px; 
+ */    
+    width: 50%;
+ }
+
+/*  main{
+    font-size: 2rem;
+ }
+     
+ p{
+    font-size: 1,5rem;
+ }
+ 
+        font-size: 32px;
+ }
+ */
+
+
+
+ body {
+    background-color: wheat;
+    color: black;
+    /* font-style: 50ch; 50 karekterlik yer olsun */ 
+ }
+
+ p{
+    color: blue;
+ }

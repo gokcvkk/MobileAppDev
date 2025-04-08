@@ -1,0 +1,84 @@
+/*
+-------------------------------------------
+BURALARDAKİ KODLAR DEĞİŞTİRİLMEMELİ. EN
+AŞAĞIDAKİ NOTU OKUYALIM
+-------------------------------------------
+*/
+
+body {
+    background-color: #393646;
+    color: #f4eee0;
+  }
+  
+  ul li:not(:last-child), ol li:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .same-color-text {
+    color: #f4e1f4;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  ul.task-1-list li span {
+    color: #e1cda3 !important;
+  }
+  
+  ul.task-1-list li#third-item {
+    color: #f4e1f4;
+  }
+  
+  /*
+  -------------------------------------------
+  YUKARIDAKİ KODLARI DEĞİŞTİRMEMELİSİNİZ.
+  BURADAN AŞAĞIYA ÇÖZÜMÜNÜZÜ YAZABİLİRSİNİZ.
+  -------------------------------------------
+  */
+
+  ul.task-1-list li#third-item span {
+    color: inherit;
+}
+  
+body {
+    background-color: #2c2a37;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box {
+    background-color: rgb(251, 236, 214);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    position: relative;
+}
+.inner-box {
+    background-color: #e4cca2;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+.large {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

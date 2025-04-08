@@ -1,0 +1,33 @@
+body{
+   font-family: "Playfair Display", serif;;
+}
+
+
+.navbar-brand{
+  font-weight: 600 !important;
+}
+
+.nav-link:hover{
+   background-color:#FFC8DD !important ;
+}
+
+.hero-p{
+  line-height: 28px !important;
+}
+
+.btn-hero{
+  background-color:#FFAFCC !important ;
+}
+
+.btn-hero:hover{
+  background-color:#CDB4DB !important ;
+}
+
+.btn-outline-hero{
+  background-color:#FFAFCC !important ;
+}
+
+.btn-outline-hero:hover{
+  background-color:#CDB4DB !important ;
+}
+

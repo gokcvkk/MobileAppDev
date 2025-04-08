@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WT-9180</title>
+    <link rel="stylesheet" href="WT-9180.css">
+
+    <style>
+        .dotted-bold-divider {
+            border: none;
+            border-top: 5px dotted #f8b400; /* Parçalı (noktalı) ve kalın çizgi */
+            width: 80%; /* Sayfada biraz boşluk bıraktım */
+            margin: 20px auto; /* Üst-alt boşluk ve ortalama yaptım */
+        }
+
+        .transparent{
+            color: rgb(165, 42, 42, 0.5);
+        }
+
+        #table-header {
+        background-color: #5cb376; 
+        color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS Neden Ortaya Çıktı ve Ne İşe Yarar?</h1>  
+
+    <hr class="dotted-bold-divider">
+
+    <p>CSS (Cascading Style Sheets), HTML'in yapısal eksikliklerini gidermek ve web sayfalarına görsel tasarım kazandırmak amacıyla ortaya çıkmıştır. HTML sadece içeriği tanımlarken, CSS renkler, yazı tipleri, boşluklar ve düzen gibi stil öğelerini kontrol ederek web sitelerinin daha estetik ve kullanıcı dostu olmasını sağlar. Bu ayrım sayesinde, tasarım ve içerik birbirinden bağımsız olarak yönetilebilir, böylece web geliştirme süreci daha esnek ve verimli hale gelir.</p>
+    
+    <h2 class="transparent">Öğrenciler</h2>
+
+    <table>
+        <tr id="table-header">
+            <th>Ad Soyad</th>
+            <th>Sınıf</th>
+            <th>Ortalama</th>
+        </tr>
+        <tr  style="background-color: #ffcccc; color: black;">
+            <td>Gökce Çevik</td>
+            <td>7/A</td>
+            <td>98.5</td>
+        </tr>
+        <tr style="background-color: #ccffcc; color: black;">
+            <td>Tolga Bıyık</td>
+            <td>7/A</td>
+            <td>96.5</td>
+        </tr>
+        <tr style="background-color: #ccffcc; color: black;">
+            <td>Zeynep Nur Işık</td>
+            <td>6/B</td>
+            <td>93.5</td>
+        </tr>
+        <tr style="background-color: #ccffcc; color: black;">
+            <td>Pınar Özkan</td>
+            <td>5/A</td>
+            <td>92.7</td>
+        </tr>
+        <tr style="background-color: #ccffcc; color: black;">
+            <td>Nisa Uz</td>
+            <td>8/A</td>
+            <td>89.4</td>
+        </tr>
+    </table>
+</body>
+</html>

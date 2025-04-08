@@ -1,0 +1,70 @@
+*{
+    font-family: sans-serif;
+}
+
+h3{
+    color: red;
+    font-size: 30px;
+    background-color: azure;
+}
+.myfontsize{
+    width: 500px;
+    color: black;
+    font-size: 8px;
+    background-color: blue;
+    padding: 30px 20px 10px 5px;
+    border: 5px dotted red;
+    border-radius: 30px;
+    margin: 50px;
+}
+.divp{
+    color: aquamarine;
+    font-size: 2em;
+}
+
+.firstp{
+    color:blue
+}
+
+.secondp{
+    color: orange;
+    line-height: 34px;
+}
+p{
+    color: chartreuse;
+}
+#thirdp{
+    color: blueviolet;
+}
+
+/*attribute selector*/
+a[href^="http://"]{
+    color: red;
+}
+
+a[href^="https://"]{
+    color: rgb(0, 167, 47);
+}
+
+.circle{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(233, 30, 159);
+    border-radius: 350px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.square1{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(193, 230, 47);
+}

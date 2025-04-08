@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-header{
+    background-color: aliceblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header-cont{
+    max-width: 1200px;
+    margin: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.main-nav ul li{
+    margin: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: chartreuse;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.logo a:hover{
+    color: darkgreen;
+    transition: 0.5s;
+
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: darkolivegreen;
+    font-size: 1rem;
+
+}
+
+.main-nav ul li a:hover{  
+    color: chocolate;
+
+}
+
+body{
+    background-color: bisque;
+}
+
+
+.main-heading{
+    margin: 50px;
+    padding-top: 100px;
+}
+
+@media (min-width:0) and (max-width:576px) {
+    body{
+        background-color: hotpink
+    }
+
+    .main-heading{
+        color: aliceblue;
+        margin: 50px;
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:577px) and (max-width:760px) {
+    body{
+        background-color: rgb(110, 199, 15)
+    }
+
+    .main-heading{
+        color: rgb(217, 255, 103);
+        margin: 50px;
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    body{
+        background-color: rgb(94, 229, 206)
+    }
+
+    .main-heading{
+        color: rgb(0, 118, 18);
+        margin: 50px;
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+    body{
+        background-color: rgb(151, 99, 171)
+    }
+
+    .main-heading{
+        color: rgb(190, 15, 15);
+        margin: 50px;
+        font-size: 20px;
+    }
+
+}
+
+
+.relative-position{
+    position: relative;
+    background-color: rgb(188, 255, 4);
+    width: 800px;
+    height: 400px;
+}
+
+.absolute-position{
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+}
+
+
+.btn-container{
+    margin: 30px;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: blue;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.btn:active{
+    background-color: yellow;
+    color: magenta;
+}
+
+.btn:focus{
+    outline: 3px solid green;
+
+}
+
+.pseudo-list p:first-child{
+    color: magenta;
+
+}
+
+.pseudo-list p:last-child{
+    color: rgb(0, 76, 255);
+
+}
+
+.pseudo-list p:first-letter{
+    color: rgb(253, 0, 0);
+    font-size: 48px;
+
+}
+
+.x::before{
+    display: inline-block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.x::after{
+    content: "AFTER";
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+marker-cont{
+    margin: 50px;
+}
+
+marker-cont ul li::marker{
+    content: "*";
+}
+
