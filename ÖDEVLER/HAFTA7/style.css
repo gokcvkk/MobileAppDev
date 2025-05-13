@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url('assets/backg2-pica\ \(1\).png'); 
+  background-size: cover; /* Ekrana sığacak şekilde ölçeklendir */
+  background-position: center; /* Ortaya hizala */
+  background-repeat: no-repeat; /* Tekrar etme */
+  height: 100vh; /* Ekranın tamamını kaplamasını sağla */
+  color: rgb(57, 109, 231);
+}
+
+.volume-control {
+    position: fixed;
+    bottom: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+  }
+
+#focus-timer {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+section{
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.focus-body{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.focus-body h1{
+    font-size: 56px;
+}
+
+.focus-body spna{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.focus-body button{
+    background-color: transparent;
+    color:rgb(57, 109, 231);
+    border: 2px solid rgb(57, 109, 231);;
+    padding: 15px 25px;
+    border-radius:25px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.focus-body input{
+    margin: 20px;
+}
+
+.icon-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+audio {
+    display: none;
+}
+

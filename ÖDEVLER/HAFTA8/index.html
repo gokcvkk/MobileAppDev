@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gol Takip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="teamA">
+            <h2>Team A</h2>
+            <p id="scoreA">0</p>
+            <div class="scorecontrol:">
+                <button onclick="decreaseScore('A')">-</button>
+                <button onclick="increaseScore('A')">+</button>
+            </div>
+            <button onclick="setScorePrompt('A')">Gol Ayarla</button>
+            <button onclick="setNamePrompt('A')">İsim Değiştir</button>
+            <button id="resetButtonA">Reset</button>
+        </div>
+        <div class="teamB">
+            <h2>Team B</h2>
+            <p id="scoreB">0</p>
+            <div class="scorecontrol:">
+                <button onclick="decreaseScore('B')">-</button>
+                <button  onclick="increaseScore('B')">+</button>
+            </div>
+            <button onclick="setScorePrompt('B')">Gol Ayarla</button>
+            <button onclick="setNamePrompt('B')">İsim Değiştir</button>
+            <button id="resetButtonB">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

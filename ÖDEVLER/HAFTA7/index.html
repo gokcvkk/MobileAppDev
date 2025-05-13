@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>JS-9793</title>
+</head>
+<body>
+    <section>
+        <div class="focus-body">
+            <h1>FOCUS MODE</h1>
+            <div>
+                The phone distracted you <span id="distractNumber">0</span> times
+            </div>
+            <div>
+                <h2 id="focus-timer">Focused: 0m 0s</h2>
+                <button id="toggle-btn">Timer</button>
+            </div>
+            <button id="increaseNumber">Click</button>
+            <div class="icon-button">
+                <i class="fa-solid fa-dove" id="bird"></i>
+                <audio id="birdaudio" controls>
+                    <source src="assets/bird.mp3" type="audio/mp3">
+                </audio>
+
+                <i class="fa-solid fa-moon" id="moon"></i>
+                <audio id="pianoaudio" controls>
+                    <source src="assets/piano.mp3" type="audio/mp3">
+                </audio>
+
+                <i class="fa-solid fa-tree" id="tree"></i>
+                <audio id="forestsound" controls>
+                    <source src="assets/forest.mp3" type="audio/mp3">
+                </audio>
+
+                <i class="fa-solid fa-fire" id="fire"></i>
+                <audio id="firesound" controls>
+                    <source src="assets/fire.mp3" type="audio/mp3">
+                </audio>
+
+                <i class="fa-solid fa-cloud-rain" id="rain"></i>
+                <audio id="rainsound" controls>
+                    <source src="assets/rain.mp3" type="audio/mp3">
+                </audio>
+    
+                <div class="volume-control">
+                    <input type="range" id="volumeinput">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+/* Genel sayfa stilleri */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    gap: 50px;
+}
+
+/* Takım kutuları */
+.teamA, .teamB {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+}
+
+/* Skor görünümü */
+#scoreA, #scoreB {
+    font-size: 60px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Düğmeler */
+button {
+    margin: 8px 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Renkli kontrol butonları */
+.scorecontrol button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button[id^="resetButton"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.95);
+}
