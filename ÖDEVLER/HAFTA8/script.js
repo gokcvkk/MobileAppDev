@@ -19,13 +19,15 @@ function decreaseScore(teamName) {
 }
 
 function setNamePrompt(teamName) {
-    const name = prompt("Takımın Yeni İsmini Giriniz:")
-
-    document
-    .getElementById(`team${teamName}`)
-    .getElementsByTagName("h2")[0].textContent  = name;
-
+    const name = prompt("Takımın Yeni İsmini Giriniz:");
+    const teamDiv = document.querySelector(`.team${teamName}`);
+    if (teamDiv) {
+        teamDiv.querySelector("h2").textContent = name;
+    } else {
+        console.error(`.team${teamName} bulunamadı!`);
+    }
 }
+
 
 function setScorePrompt(teamName){
     const score = prompt("Yeni Skor Giriniz:");
